@@ -16,6 +16,21 @@
 ## Executive Summary
 This project delivers an end-to-end analytics solution diagnosing customer retention, logistical friction, financial payment mechanics, and SKU pricing dynamics for **Olist**, Brazil's largest marketplace platform. 
 
+---
+
+## Database Schema & Data Structure
+
+The Olist dataset consists of **100,000+ orders** (2016–2018) structured across multiple relational tables joined by key foreign identifiers.
+
+![Olist Database Schema](vizualization/data_schema.png)
+
+### Key Relational Entities & Variables:
+* **`olist_orders_dataset` (Core Table):** Contains order status and timestamps (`order_purchase_timestamp`, `order_delivered_customer_date`, `order_estimated_delivery_date`) used to compute fulfillment lag and delay thresholds.
+* **`olist_order_payments_dataset` (Joined via `order_id`):** Holds payment methods (`payment_type`: Credit Card, Voucher, Debit, Boleto) and installment tiers (`payment_installments`).
+* **`olist_order_items_dataset` (Joined via `order_id`):** Links orders to items, price points (`price`), and shipping costs (`freight_value`).
+* **`olist_products_dataset` (Joined via `product_id`):** Categorizes items (`product_category_name`) to isolate high-churn SKU segments.
+* **`olist_order_customer_dataset` (Joined via `customer_id`):** Contains buyer location metrics (`customer_state`, `zip_code_prefix`) used for regional logistics performance analysis.
+
 Out of **$19.75M in Total Payment Value**, the platform experiences an overall **58.6% churn rate**, resulting in **$11.42M in lost revenue**. By combining Python data engineering, SQL relational modeling, and interactive Tableau dashboards, this analysis isolates root causes across operations and provides actionable intervention strategies to recover lost revenue.
 
 ---
