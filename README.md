@@ -1,5 +1,12 @@
 # Olist E-Commerce Retention & Product Performance Analysis
 
+## Table of Contents
+- [Executive Summary](#-executive-summary)
+- [Data Stack & Engineering Pipeline](#-data-stack--engineering-pipeline)
+- [Key Business Insights](#-key-business-insights)
+- [Strategic Recommendations](#-strategic-recommendations)
+- [Data Access & Download](#-data-access--instructions)
+
 
 ## Executive Summary
 This project delivers an end-to-end analytics solution diagnosing customer retention, logistical friction, financial payment mechanics, and SKU pricing dynamics for **Olist**, Brazil's largest marketplace platform. 
