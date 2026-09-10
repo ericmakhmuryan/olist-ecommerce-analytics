@@ -52,6 +52,19 @@ Out of **$19.75M in Total Payment Value**, the platform experiences an overall *
 * **SQL Queries:** [`/sql/03_sql_analytics_queries.sql`](./sql)
 * **ETL Scripts:** [`/notebooks/01_data_cleaning.ipynb`](./notebooks)
 
+---
+
+## Data Access & Instructions
+
+The raw dataset used in this analysis exceeds GitHub's web file size limits and is excluded from this repository. You can download the original, raw Brazilian E-Commerce Dataset directly from Kaggle:
+
+* **Source Dataset:** [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+### How to Replicate Locally:
+1. Download the zip file from Kaggle and extract the raw `.csv` files into a local folder named `data/`.
+2. Run `notebooks/01_data_cleaning.ipynb` to execute the ETL pipeline and generate the merged analytical dataset (`olist_master_clean.csv`).
+3. Load the cleaned dataset into PostgreSQL or Tableau to run the queries and view the workbooks.
+
 ```text
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
