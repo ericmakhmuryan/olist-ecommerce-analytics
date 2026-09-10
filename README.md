@@ -1,6 +1,5 @@
 # Olist E-Commerce Retention & Product Performance Analysis
 
-![Executive Summary Dashboard](vizualization/Executive_Summary.png)
 
 ## Executive Summary
 This project delivers an end-to-end analytics solution diagnosing customer retention, logistical friction, financial payment mechanics, and SKU pricing dynamics for **Olist**, Brazil's largest marketplace platform. 
@@ -19,6 +18,7 @@ Out of **$19.75M in Total Payment Value**, the platform experiences an overall *
 ## Key Business Insights
 
 ### 1. Macro Operational Drivers (Dashboard 1)
+![Executive Summary Dashboard](vizualization/Executive_Summary.png)
 * **Financial Payment Friction:** Vouchers and long-term credit installment plans drive elevated churn. Voucher payments reach up to **69.6% churn** in short-term tiers (2–6x), while credit card churn scales continuously from **55.2%** (1x) up to **62.1%** for long-term installments (13+x). Debit cards exhibit the lowest churn at **39.4%**.
 * **Logistics & Delivery Delay Thresholds:** On-time deliveries maintain the lowest baseline churn (**45.0%**). Minor delays (1–5 days) increase churn to **51.3%**, while severe delays (5+ days) spike churn to **60.2%**.
 * **Geographic Disparities:** High churn is concentrated in northern/northeastern regions (`MA` leading at **~66.0%**, followed by `PA` and `RN`), whereas primary economic hubs like São Paulo (`SP`) maintain the lowest churn rate at **~55.0%**.
