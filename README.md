@@ -1,7 +1,7 @@
 # Olist E-Commerce Retention & Product Performance Analysis
 
 ## Table of Contents
-- [Executive Summary](#-executive-summary)
+- [Executive Summary](##-executive-summary)
 - [Data Stack & Engineering Pipeline](##-data-stack--engineering-pipeline)
 - [Key Business Insights](##-key-business-insights)
 - [Strategic Recommendations](##-strategic-recommendations)
