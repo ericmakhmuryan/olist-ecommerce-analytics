@@ -1,5 +1,4 @@
-data/
-*.csv
+
 
 # Ignore only the giant merged file
 olist_master_clean.csv
