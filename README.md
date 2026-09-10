@@ -1,5 +1,10 @@
 # Olist E-Commerce Retention & Product Performance Analysis
 
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14.0-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Interactive-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 ## Table of Contents
 - [Executive Summary](##-executive-summary)
 - [Data Stack & Engineering Pipeline](##-data-stack--engineering-pipeline)
