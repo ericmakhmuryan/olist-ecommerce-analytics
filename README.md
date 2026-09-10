@@ -2,10 +2,10 @@
 
 ## Table of Contents
 - [Executive Summary](#-executive-summary)
-- [Data Stack & Engineering Pipeline](#-data-stack--engineering-pipeline)
-- [Key Business Insights](#-key-business-insights)
-- [Strategic Recommendations](#-strategic-recommendations)
-- [Data Access & Download](#-data-access--instructions)
+- [Data Stack & Engineering Pipeline](##-data-stack--engineering-pipeline)
+- [Key Business Insights](##-key-business-insights)
+- [Strategic Recommendations](##-strategic-recommendations)
+- [Data Access & Download](##-data-access--instructions)
 
 
 ## Executive Summary
