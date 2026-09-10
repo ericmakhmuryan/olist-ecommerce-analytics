@@ -48,7 +48,7 @@ Out of **$19.75M in Total Payment Value**, the platform experiences an overall *
 ---
 
 ## Live Links & Repository Structure
-* **Live Tableau Dashboards:** [Link to Your Tableau Public Profile]
+* **Live Tableau Dashboards:** https://public.tableau.com/app/profile/erik.makhmuryan/vizzes
 * **SQL Queries:** [`/sql/03_sql_analytics_queries.sql`](./sql)
 * **ETL Scripts:** [`/notebooks/01_data_cleaning.ipynb`](./notebooks)
 
