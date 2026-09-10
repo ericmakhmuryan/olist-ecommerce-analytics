@@ -1,8 +1,5 @@
 
 
-# Ignore only the giant merged file
-olist_master_clean.csv
-
 # System junk
 .DS_Store
 .ipynb_checkpoints/
